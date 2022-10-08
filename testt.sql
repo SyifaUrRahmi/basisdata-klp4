@@ -17,7 +17,7 @@ id INT UNSIGNED AUTO_INCREMENT,
 PRIMARY KEY (id)
 );
 
-CREATE TABLE schedule (
+CREATE TABLE scheduleTable (
 `date` DATE,
 `time` TIME,
 course_id INT,
