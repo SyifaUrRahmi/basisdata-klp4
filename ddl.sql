@@ -6,7 +6,6 @@ CREATE table student(
 	student_name VARCHAR(255) NOT NULL,
    address VARCHAR(255),
    major VARCHAR(100) NOT NULL,
-   nim VARCHAR(100) UNIQUE,
    PRIMARY KEY (id)
 );
 
@@ -30,4 +29,6 @@ SHOW TABLES;
 DESC course;
 DESC student;
 DESC student_schedule;
+
+
 
