@@ -6,5 +6,5 @@ Anggota Kelompok :
   3. Eka Hanny Oktavia
   4. Syifa Ur Rahmi
   5. Michael Gabriel
-  6. Andi Muhammad Ibnu Bagus Malolo
+  6. Andi Muh. Ibnu Hibban Bagoes Malolo
   7. Asehpryanto Rari Parinding
