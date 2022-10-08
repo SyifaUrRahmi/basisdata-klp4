@@ -4,10 +4,9 @@ USE db_klp4;
 CREATE table student(
 	id INT UNSIGNED AUTO_INCREMENT,
 	student_name VARCHAR(255) NOT NULL,
-   address VARCHAR(255),
-   major VARCHAR(100) NOT NULL,
-   nim VARCHAR(100) UNIQUE,
-   PRIMARY KEY (id)
+  address VARCHAR(255),
+  major VARCHAR(100) NOT NULL,
+  PRIMARY KEY (id)
 );
 
 CREATE TABLE course (
@@ -32,6 +31,7 @@ DESC student;
 DESC student_schedule;
 
 
+
 -- INI TABLE student_schedule
 INSERT INTO student_schedule (student_id, course_id) VALUES
 (1, 1), (1, 2), (1, 4),
@@ -41,4 +41,5 @@ INSERT INTO student_schedule (student_id, course_id) VALUES
 (5, 1), (5, 3), (5, 2),
 (6, 1), (6, 2), (6, 4),
 (7, 4), (7, 2), (7, 3);
+
 
