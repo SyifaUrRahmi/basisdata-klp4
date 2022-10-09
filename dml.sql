@@ -19,3 +19,8 @@ UPDATE course
 set `date` = "yyyy-mm-dd", `time` = hh:mm:ss
 WHERE id = id;
 
+-- update info student
+UPDATE student
+SET student_name ="",address ="", major="" WHERE id = ""
+-- get list schedule on specific student
+SELECT * FROM course WHERE id =""
