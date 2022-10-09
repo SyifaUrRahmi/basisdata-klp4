@@ -30,15 +30,8 @@ DESC course;
 DESC student;
 DESC student_schedule;
 
--- --menambahkan data baru pada tabel student
-insert into student	(id,full_name,address,major)
-values ();
--- untuk menampilkan data student
-select * from student;
-
-
+-- INSERT DATA -- 
 -- Ini Table student --
-
 INSERT INTO student
 VALUES (1, "Agung Kartika Ardhiyanda", "Jl. Jalan No 1", "Sistem Informasi"),
 (2, "Muhammad Erwin Arif", "Jl. Jalan No 2", "Sistem Informasi"),
@@ -57,6 +50,3 @@ INSERT INTO student_schedule (student_id, course_id) VALUES
 (5, 1), (5, 3), (5, 2),
 (6, 1), (6, 2), (6, 4),
 (7, 4), (7, 2), (7, 3);
-
-
-db_klp4
