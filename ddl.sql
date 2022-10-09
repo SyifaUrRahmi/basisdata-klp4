@@ -37,6 +37,16 @@ values ();
 select * from student;
 
 
+-- Ini Table student --
+
+INSERT INTO student
+VALUES (1, "Agung Kartika Ardhiyanda", "Jl. Jalan No 1", "Sistem Informasi"),
+(2, "Muhammad Erwin Arif", "Jl. Jalan No 2", "Sistem Informasi"),
+(3, "Syifa Ur Rahmi", "Jl. Jalan No 3", "Sistem Informasi"),
+(4, "Eka Hanny Oktavia", "Jl. Jalan No 4", "Sistem Informasi"),
+(5, "Andi Muh. Ibnu Hibban Bagoes Malolo", "Jl. Jalan No 6", "Sistem Informasi"),
+(6, "Asehpryanto Rari Parinding", "Jl. Jalan No 5", "Sistem Informasi"),
+(7, "Michael Gabriel Bida", "Jl. Jalan No 7", "Sistem Informasi");
 
 -- INI TABLE student_schedule
 INSERT INTO student_schedule (student_id, course_id) VALUES
@@ -49,3 +59,4 @@ INSERT INTO student_schedule (student_id, course_id) VALUES
 (7, 4), (7, 2), (7, 3);
 
 
+db_klp4
