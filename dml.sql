@@ -2,6 +2,9 @@
 insert into student	(full_name,address,major)
 values ();
 
+-- List of courses
+SELECT id, course_name, duration FROM course;
+
 -- untuk menampilkan data student
 select * from student;
 
