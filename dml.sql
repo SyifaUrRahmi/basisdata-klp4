@@ -21,6 +21,11 @@ WHERE id = id;
 
 -- update info student
 UPDATE student
-SET student_name ="",address ="", major="" WHERE id = ""
+SET student_name ="",address ="", major="" WHERE id = "";
+
 -- get list schedule on specific student
-SELECT * FROM course WHERE id =""
+SELECT c.course_name, c.date, c.time
+FROM student AS s 
+INNER JOIN student_schedule as sc on s.id = sc.student_id
+INNER JOIN course as c on sc.course_id = c.id
+WHERE s.id = 5;
