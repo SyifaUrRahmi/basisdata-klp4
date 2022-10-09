@@ -41,6 +41,13 @@ VALUES (1, "Agung Kartika Ardhiyanda", "Jl. Jalan No 1", "Sistem Informasi"),
 (6, "Asehpryanto Rari Parinding", "Jl. Jalan No 5", "Sistem Informasi"),
 (7, "Michael Gabriel Bida", "Jl. Jalan No 7", "Sistem Informasi");
 
+-- Ini Table course --
+INSERT INTO course (course_name, duration, `date`, `time`)
+VALUES ("Basis Data", 150, '2022-10-03', '08:00:00'),
+("Struktur Data", 150, '2022-10-04', '10:00:00'),
+("Pemrograman Web", 90, '2022-10-06', '09:00:00'),
+("Struktur Data", 150, '2022-10-05', '09:00:00');
+
 -- INI TABLE student_schedule
 INSERT INTO student_schedule (student_id, course_id) VALUES
 (1, 1), (1, 2), (1, 4),
