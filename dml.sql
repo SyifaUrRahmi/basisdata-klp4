@@ -1,5 +1,5 @@
 --menambahkan data baru pada tabel student
-insert into student	(full_name,address,major)
+insert into student	(student_name,address,major)
 values ();
 
 -- untuk menampilkan data student
