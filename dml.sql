@@ -21,7 +21,7 @@ SELECT id, course_name, duration FROM course;
 
 -- Create / input new schedule for specific student
 INSERT INTO course (course_name, `date`, `time`)
-VALUES ("", 1, );
+VALUES ("", yyyy:mm:dd, hh:mm:ss);
 
 
 -- Edit /update schedule for specific student
