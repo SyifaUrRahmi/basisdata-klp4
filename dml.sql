@@ -10,7 +10,7 @@ UPDATE student
 SET student_name ="",address ="", major="" WHERE id = "";
 
 -- get list schedule on specific student
-SELECT c.course_name, c.date, c.time
+SELECT *
 FROM student AS s 
 INNER JOIN student_schedule as sc on s.id = sc.student_id
 INNER JOIN course as c on sc.course_id = c.id
@@ -20,9 +20,8 @@ WHERE s.id = 5;
 SELECT id, course_name, duration FROM course;
 
 -- Create / input new schedule for specific student
-INSERT INTO course (course_name, duration, `date`, `time`)
-VALUES ("", 1, , ,);
-INSERT INTO student_schedule VALUES (student_id, course_id);
+INSERT INTO course (course_name, `date`, `time`)
+VALUES ("", 1, );
 
 
 -- Edit /update schedule for specific student
