@@ -1,13 +1,13 @@
  -- use db_klp4;
 /* ---------------- DCL -------------------- */
--- CREATE USER AND STUDENT ACCESS
+-- MEMBUAT USER admin dan student untuk mengakses database
  CREATE USER 'admin' IDENTIFIED BY 'admin';
  CREATE USER 'student' IDENTIFIED BY 'student123';
 
--- GRANT ADMIN FOR ALL PRIVILEGES 
+-- MEMBERIKAN semua akses kepada admin 
 GRANT ALL PRIVILEGES ON * TO 'admin';
 
--- GRANT STUDENT FOR CERTAIN PART OF PRIVILEGES
+-- MEMBERIKAN sebagian akses kepada student
 GRANT SELECT, INSERT, UPDATE, DELETE ON student TO 'student';
 GRANT SELECT, INSERT, UPDATE, DELETE ON student_schedule TO 'student';
  
